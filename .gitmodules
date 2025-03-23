@@ -1,3 +1,6 @@
 [submodule "openwrt-gecoosac"]
 	path = openwrt-gecoosac
 	url = https://github.com/lwb1978/openwrt-gecoosac
+[submodule "helloworld"]
+	path = helloworld
+	url = https://github.com/fw876/helloworld
