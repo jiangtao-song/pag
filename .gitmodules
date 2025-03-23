@@ -10,3 +10,6 @@
 [submodule "koolproxy"]
 	path = koolproxy
 	url = https://github.com/Baozisoftware/luci-app-koolproxy
+[submodule "pushbot"]
+	path = pushbot
+	url = https://github.com/gaoyaxuan/luci-app-pushbot
