@@ -22,3 +22,6 @@
 [submodule "vlmcsd"]
 	path = vlmcsd
 	url = https://github.com/DokiDuck/luci-app-vlmcsd
+[submodule "wolplus"]
+	path = wolplus
+	url = https://github.com/animegasan/luci-app-wolplus
