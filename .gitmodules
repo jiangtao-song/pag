@@ -16,3 +16,6 @@
 [submodule "ramfree"]
 	path = ramfree
 	url = https://github.com/sbwml/luci-app-ramfree
+[submodule "unblockneteasemusic"]
+	path = unblockneteasemusic
+	url = https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic
