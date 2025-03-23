@@ -13,3 +13,6 @@
 [submodule "pushbot"]
 	path = pushbot
 	url = https://github.com/gaoyaxuan/luci-app-pushbot
+[submodule "ramfree"]
+	path = ramfree
+	url = https://github.com/sbwml/luci-app-ramfree
