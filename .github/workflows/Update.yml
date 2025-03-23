@@ -1,0 +1,21 @@
+name: Update Submodules
+on:
+  schedule:
+    - cron: '0 1 * * *' # 每天凌晨1点执行
+  workflow_dispatch: # 允许手动触发
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive # 确保子模块也被检出
+      - name: Update submodules
+        run: |
+          git submodule update --remote --merge
+          git config user.name "Your GitHub Username"
+          git config user.email "your-email@example.com"
+          git add .
+          git commit -m "Updated submodules" || echo "No changes to commit"
+          git push
