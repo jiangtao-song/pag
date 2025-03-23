@@ -43,3 +43,6 @@
 [submodule "UUGameAcc"]
 	path = UUGameAcc
 	url = https://github.com/BCYDTZ/luci-app-UUGameAcc
+[submodule "luci-app-dockerman"]
+	path = luci-app-dockerman
+	url = https://github.com/lisaac/luci-app-dockerman
