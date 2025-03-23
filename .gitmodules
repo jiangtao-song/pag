@@ -31,3 +31,6 @@
 [submodule "mwan3helper"]
 	path = mwan3helper
 	url = https://github.com/padavanonly/luci-app-mwan3helper-chinaroute
+[submodule "netdata"]
+	path = netdata
+	url = https://github.com/sirpdboy/luci-app-netdata
