@@ -25,3 +25,6 @@
 [submodule "wolplus"]
 	path = wolplus
 	url = https://github.com/animegasan/luci-app-wolplus
+[submodule "wrtbwmon"]
+	path = wrtbwmon
+	url = https://github.com/gitbruc/openwrt-wrtbwmon
