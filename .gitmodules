@@ -19,3 +19,6 @@
 [submodule "unblockneteasemusic"]
 	path = unblockneteasemusic
 	url = https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic
+[submodule "vlmcsd"]
+	path = vlmcsd
+	url = https://github.com/DokiDuck/luci-app-vlmcsd
