@@ -28,3 +28,6 @@
 [submodule "wrtbwmon"]
 	path = wrtbwmon
 	url = https://github.com/gitbruc/openwrt-wrtbwmon
+[submodule "mwan3helper"]
+	path = mwan3helper
+	url = https://github.com/padavanonly/luci-app-mwan3helper-chinaroute
