@@ -34,3 +34,6 @@
 [submodule "netdata"]
 	path = netdata
 	url = https://github.com/sirpdboy/luci-app-netdata
+[submodule "ddns-go"]
+	path = ddns-go
+	url = https://github.com/sirpdboy/luci-app-ddns-go
