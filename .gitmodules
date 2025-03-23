@@ -4,3 +4,6 @@
 [submodule "helloworld"]
 	path = helloworld
 	url = https://github.com/fw876/helloworld
+[submodule "lucky"]
+        path = lucky
+        url = https://github.com/sirpdboy/luci-app-lucky
