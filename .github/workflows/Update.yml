@@ -4,18 +4,19 @@ on:
     - cron: '0 1 * * *' # 每天凌晨1点执行
   workflow_dispatch: # 允许手动触发
 jobs:
-  update-submodules:
+  # This workflow contains a single job called "update"
+  update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          submodules: recursive # 确保子模块也被检出
-      - name: Update submodules
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Pull & update submodules recursively
         run: |
-          git submodule update --remote --merge
-          git config user.name "jiangtao-song"
-          git config user.email "jsongtao@sina.com"
-          git add .
-          git commit -m "Updated submodules" || echo "No changes to commit"
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
+      - name: Commit & push changes
+        run: |
+          git config --global user.name ${{ secrets.USER_NAME }}
+          git config --global user.email ${{ secrets.USER_EMAIL }}
+          git commit -am "Update submodules"
           git push
