@@ -46,3 +46,9 @@
 [submodule "luci-app-dockerman"]
 	path = luci-app-dockerman
 	url = https://github.com/lisaac/luci-app-dockerman
+[submodule "passwall2"]
+	path = passwall2
+	url = https://github.com/xiaorouji/openwrt-passwall2
+[submodule "passwall"]
+	path = passwall
+	url = https://github.com/xiaorouji/openwrt-passwall
