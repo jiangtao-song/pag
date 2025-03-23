@@ -40,3 +40,6 @@
 [submodule "luci-app-adguardhome"]
 	path = luci-app-adguardhome
 	url = https://github.com/rufengsuixing/luci-app-adguardhome
+[submodule "UUGameAcc"]
+	path = UUGameAcc
+	url = https://github.com/BCYDTZ/luci-app-UUGameAcc
