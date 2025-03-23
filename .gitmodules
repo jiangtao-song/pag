@@ -52,3 +52,6 @@
 [submodule "passwall"]
 	path = passwall
 	url = https://github.com/xiaorouji/openwrt-passwall
+[submodule "geoview"]
+	path = geoview
+	url = https://github.com/snowie2000/geoview
