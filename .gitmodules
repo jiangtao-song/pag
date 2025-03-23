@@ -7,3 +7,6 @@
 [submodule "lucky"]
 	path = lucky
 	url = https://github.com/sirpdboy/luci-app-lucky
+[submodule "koolproxy"]
+	path = koolproxy
+	url = https://github.com/Baozisoftware/luci-app-koolproxy
