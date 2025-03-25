@@ -55,3 +55,6 @@
 [submodule "geoview"]
 	path = geoview
 	url = https://github.com/snowie2000/geoview
+[submodule "unblockmusic"]
+	path = unblockmusic
+	url = https://github.com/maxlicheng/luci-app-unblockmusic
