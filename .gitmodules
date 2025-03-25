@@ -58,3 +58,6 @@
 [submodule "unblockmusic"]
 	path = unblockmusic
 	url = https://github.com/maxlicheng/luci-app-unblockmusic
+[submodule "syncdial"]
+	path = syncdial
+	url = https://github.com/rufengsuixing/luci-app-syncdial
