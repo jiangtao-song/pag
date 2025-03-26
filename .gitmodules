@@ -61,3 +61,6 @@
 [submodule "syncdial"]
 	path = syncdial
 	url = https://github.com/rufengsuixing/luci-app-syncdial
+[submodule "node"]
+	path = node
+	url = https://github.com/nxhack/openwrt-node-packages
